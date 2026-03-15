@@ -1,0 +1,247 @@
+/* CSS Zen Garden submission 211 - 'Orchid Beauty - Colorful Butterfly Edition' */
+/* Edited by Anamarie */
+/* Images and text remain unchanged */
+
+/* Links */
+a:link {
+    color: #a64ac9;
+    text-decoration: none;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 16px;
+}
+
+a:visited {
+    color: #6c5ce7;
+}
+
+a:hover {
+    color: #ff4fa3;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff8c42;
+}
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #333;
+
+    /* colorful gradient background */
+    background: linear-gradient(135deg,#ffd6ec,#e6ccff,#d6f5ff,#fff0d6);
+    background-attachment: fixed;
+}
+
+/* Main wrapper */
+.page-wrapper {
+    width: 700px;
+    margin: auto;
+    padding-bottom: 120px;
+
+    background-image: url(rounded.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    background-color: white;
+
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+
+    position: relative;
+}
+
+/* Header */
+header {
+    background-image: url("design/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+    width: 700px;
+    height: 387px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+    width: 420px;
+    margin: 0;
+}
+
+/* Summary */
+.summary p:last-child {
+    margin: -110px 0 95px 300px;
+    padding-left: 15px;
+
+    text-transform: uppercase;
+    width: 300px;
+    font-size: 13px;
+
+    color: #8b3a7a;
+
+    font-family: "Georgia", "Times New Roman", serif;
+
+    background: transparent url(bullet.jpg) no-repeat 0% 28%;
+}
+
+/* Supporting sections */
+.supporting {
+    width: 380px;
+}
+
+/* Section cards */
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements {
+
+    width: 380px;
+    margin: 0 0 25px 60px;
+
+    padding: 15px;
+
+    background: linear-gradient(145deg,#fff7fb,#f2ecff);
+
+    border-left: 6px solid #ff7eb3;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Section titles */
+.preamble h3 {
+    background: url(title01.jpg) no-repeat left top;
+    width: 286px;
+    height: 64px;
+}
+
+.explanation h3 {
+    background: url(title02.jpg) no-repeat left top;
+    width: 286px;
+    height: 66px;
+}
+
+.participation h3 {
+    background: url(title03.jpg) no-repeat left top;
+    width: 286px;
+    height: 66px;
+}
+
+.benefits h3 {
+    background: url(title04.jpg) no-repeat left top;
+    width: 286px;
+    height: 66px;
+}
+
+.requirements h3 {
+    background: url(title05.jpg) no-repeat left top;
+    width: 286px;
+    height: 66px;
+}
+
+/* Hide original text titles */
+header h1,
+header h2,
+.summary p:first-child {
+    display: none;
+}
+
+.preamble h3,
+.explanation h3,
+.participation h3,
+.benefits h3,
+.requirements h3 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Paragraph text */
+p {
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* Sidebar */
+.sidebar {
+
+    position: absolute;
+    left: 160px;
+    top: 400px;
+    margin-left: 300px;
+
+    width: 200px;
+    height: 820px;
+
+    padding: 18px;
+
+    background: #f2e8ff url(white.jpg) no-repeat bottom;
+
+    border-radius: 12px;
+
+    border: 2px solid #d0aaff;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Sidebar lists */
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 15px 25px;
+
+    font-size: 15px;
+}
+
+.sidebar ul li {
+
+    padding: 6px 0;
+
+    border-bottom: 1px dotted #cba6f7;
+}
+
+.sidebar ul li a:hover {
+
+    color: #ff4fa3;
+}
+
+/* Design selection */
+.design-selection ul li {
+
+    padding: 4px 0 4px 20px;
+
+    background: transparent url(bullet.jpg) no-repeat 2% 25%;
+
+    color: #6a4c93;
+}
+
+.design-selection a {
+
+    display: block;
+
+    font-size: 16px;
+
+    color: #a64ac9;
+}
+
+.design-selection a.designer-name {
+
+    display: inline;
+
+    font-size: 14px;
+
+    color: #555;
+}
+
+/* Footer spacing */
+.design-selection,
+.design-archives {
+    margin-bottom: 10px;
+}
